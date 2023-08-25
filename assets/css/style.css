@@ -1,8 +1,41 @@
-* {
+/* * {
     border: solid 1px;
     border-color: red;
+} */
+
+nav {
+    display: flex;
+    justify-content: right;
+    font-size: 48px;
+    padding: 3px;
+    color: white;
+    background-color: black;
+}
+
+nav a{
+    border: solid 2px black;
+}
+
+nav a:hover{
+    background-color: grey;
+}
+
+.card {
+    border: solid 5px black;
+    background-color: grey;
+    padding: 15px 2px 2px 8px;
+    margin: 50px;
+}
+
+.card h1 {
+    display: flex;
+    justify-content: center;
+    border: solid 2px black;
+    padding: 5px;
 }
 
 header {
-font-size: x-large; 
+font-size: 60px;
+display: flex;
+justify-content: center;
 }
