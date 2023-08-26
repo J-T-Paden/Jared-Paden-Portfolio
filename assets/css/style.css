@@ -15,6 +15,10 @@ body {
     color: white;
 }
 
+a {
+    color: var(--primaryColor)
+}
+
 nav {
     display: flex;
     justify-content: right;
